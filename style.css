@@ -1,0 +1,37 @@
+:root {
+    --var-primary: #b30631;
+    --var-primary-dark: #b30631;
+    --var-secondary: #F1275A;
+    --var-dark: #472421;
+    --var-light: #FFFCED;
+}
+
+.wy-side-nav-search {
+    background-color: var(--var-primary-dark);
+}
+
+.wy-nav-side {
+    background-color: var(--var-dark);
+}
+
+.rst-versions .rst-current-version {
+    background-color: var(--var-primary);
+}
+
+.wy-nav-content a {
+    color: var(--var-primary);
+}
+
+.wy-menu-vertical a:hover {
+    background-color: var(--var-primary);
+}
+
+.wy-menu-vertical li.toctree-l1.current>a {
+    background-color: var(--var-secondary);
+    color: var(--var-light);
+    border: 0;
+}
+
+.wy-menu-vertical li.current ul {
+    background-color: var(--var-light);
+}
